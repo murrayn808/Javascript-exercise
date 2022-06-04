@@ -1,0 +1,57 @@
+h1 {
+    color:red;
+}
+
+#unique-h2 {
+    color:orange;
+}
+
+h3 {
+    color:yellow;
+}
+
+h4 {
+    color:green;
+}
+
+h5 {
+    color:blue;
+}
+
+h6 {
+    color:purple;
+}
+
+body {
+    background-color: wheat;
+}
+
+.chungus {
+    color:black;
+}
+
+.chungus.compound {
+    color:purple;
+}
+
+[attribute-chungus] {
+    color:maroon;
+}
+
+[attribute-chungus="chungus-value"] {
+    color:black;
+}
+
+li, p {
+    color:green;
+}
+
+.parent-child > li {
+    color:blue
+}
+
+.ancestor-descendant li {
+    color:blueviolet
+}
+
+

@@ -1,26 +1,29 @@
 <html>
     <head>
         <title>The Page Title</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="box_styles.css">
     </head>
+
     <body>
         <header id="header">
             <h1>Big chungus</h1>
-            <h2>Big chungus</h2>
+            <h2 id="unique-h2">Big chungus</h2>
             <h3>Big chungus</h3>
             <h4>Big chungus</h4>
             <h5>Big chungus</h5>
             <h6>Big chungus</h6>    
         </header>
-    
+
         <nav>
             <a href="https://www.w3schools.com">Visit W3Schools.com!</a>
             <a href="sibling_page.html">Visit the sibling Page</a>
         </nav>
 
-        <p class="important">This is a big chungus.</p>
-        <p>This chungus is <span style="color:blue">big</span>.</p>
+        <p class="chungus">This is a big chungus.</p>
+        <p class="chungus compound">This chungus is <span style="color:blue">big</span>.</p>
         <img src="https://static.wikia.nocookie.net/supermarioglitchy4/images/f/f3/Big_chungus.png/revision/latest?cb=20200511041102">
-        <table class="important">
+        <table attribute-chungus>
             <tr>
                 <th>Month</th>
                 <th>Savings</th>
@@ -34,18 +37,60 @@
                 <td>$200</td>
             </tr> 
         </table>
-        <div>
+
             <ol>
-                <li>Coffee</li>
+                <li>Milk</li>
                 <li>Tea</li>
-                <li>Milk</li>          
+                <li attribute-chungus="chungus-value">Boba</li>          
             </ol>
             <ul>
-                <li>Coffee</li>
+                <li>Milk</li>
                 <li>Tea</li>
-                <li>Milk</li>  
+                <li attribute-chungus="chungus-value">Boba</li>  
             </ul>
+    
+
+        <ul class="parent-child">
+            Daddy and Mommy
+            <li>Kiddie 1</li>
+            <li>Kiddie 2</li>
+            <li>Kiddie 3</li>
+            <li>
+                <ul>Kiddies kiddos
+                    <li>Kiddie kiddo 1</li>
+                    <li>Kiddie kiddo 2</li>
+                </ul>
+            </li>
+        </ul>
+
+        <ul class="ancestor-descendant">
+            Grandpa and Grandma
+            <li>Grandkid 1</li>
+            <li>Grandkid 2</li>
+            <li>Grandkid 3</li>
+            <li>
+                <ul>Grandkid kiddo
+                    <li> More kiddos</li>
+                </ul>
+            </li>
+        </ul>
+
+        <p>paragraph1</p>
+        <p>paragraph2</p>
+        <p>paragraph3</p>
+
+
+        <div>
+            Outer Box
+            <div>
+                Inner Box
+            </div>
+            <div>
+                Inner Sibling Box
+            </div>
         </div>
+
+
         <footer id="footer">
             so absolutely chungus
         </footer>
