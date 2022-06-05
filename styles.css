@@ -54,4 +54,26 @@ li, p {
     color:blueviolet
 }
 
+#button {
+    height: 40px;
+    width: 200px;
+    color: black;
+    background-color: orange;
+    margin-left: 40%;
+    margin-top: 10%;
+    border-radius: 30px;
+    
+}
 
+/*.noshow {
+    display: none;
+}
+*/
+
+#fboi {
+    width: 20%;
+    margin-top: 10%;
+    margin-left: 36%;
+    border-radius: 30px;
+    display: flex;
+}
