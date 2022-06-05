@@ -54,7 +54,7 @@ li, p {
     color:blueviolet
 }
 
-#button {
+#button_toggle {
     height: 40px;
     width: 200px;
     color: black;
@@ -65,15 +65,14 @@ li, p {
     
 }
 
-/*.noshow {
-    display: none;
-}
-*/
-
 #fboi {
     width: 20%;
     margin-top: 10%;
     margin-left: 36%;
     border-radius: 30px;
-    display: flex;
+    display: none;
+}
+
+#sib_page {
+    color:black;
 }
