@@ -68,11 +68,21 @@ li, p {
 #fboi {
     width: 20%;
     margin-top: 10%;
-    margin-left: 36%;
+    margin-left: 37%;
     border-radius: 30px;
     display: none;
 }
 
 #sib_page {
     color:black;
+}
+
+.verticalBuffer {
+    margin-top: 20px;
+}
+
+nav
+{
+   position: fixed;
+   top: 0px;
 }

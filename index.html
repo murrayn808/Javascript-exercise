@@ -1,11 +1,36 @@
 <html>
     <head>
         <title>The Page Title</title>
+<!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
         <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="box_styles.css">
     </head>
 
     <body>
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #8e4838;">
+            <a class="navbar-brand" href="index.html">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="sibling_page.html">Sibling Page</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.w3schools.com/">Visit W3 Schools</a>
+                  </li>
+              </ul>
+            </div>
+        </nav>
+
         <header id="header">
             <h1>Big chungus</h1>
             <h2 id="unique-h2">Big chungus</h2>
@@ -16,78 +41,102 @@
         </header>
 
         <p>JQuery on Sibling Page</p>
-
-        <nav>
-            <a href="https://www.w3schools.com">Visit W3Schools.com!</a>
-            <a href="sibling_page.html">Visit the sibling Page</a>
-        </nav>
-
-        <p class="chungus">This is a big chungus.</p>
-        <p class="chungus compound">This chungus is <span style="color:blue">big</span>.</p>
+        
+        <p class="alert alert-primary" role="alert">This is a <strong>BIG</strong> chungus.</p>
+        <p class="alert alert-danger" role="alert">This chungus is <strong>BIG</strong>.</p>
         <img src="https://static.wikia.nocookie.net/supermarioglitchy4/images/f/f3/Big_chungus.png/revision/latest?cb=20200511041102">
-        <table attribute-chungus>
-            <tr>
-                <th>Month</th>
-                <th>Savings</th>
-            </tr>
-            <tr>
-                <td>January</td>
-                <td>$100</td>
-            </tr>
-            <tr>
-                <td>February</td>
-                <td>$200</td>
-            </tr> 
-        </table>
 
-            <ol>
-                <li>Milk</li>
-                <li>Tea</li>
-                <li attribute-chungus="chungus-value">Boba</li>          
-            </ol>
-            <ul>
-                <li>Milk</li>
-                <li>Tea</li>
-                <li attribute-chungus="chungus-value">Boba</li>  
-            </ul>
-    
+        
+        <div class="savings">
+            <table attribute-chungus class="container">
+                <tr class="row">
+                    <th class="col-sm">Month</th>
+                    <th class="col-sm">Savings</th>
+                </tr>
+                <tr class="row">
+                    <td class="col-sm">January</td>
+                    <td class="col-sm">$100</td>
+                </tr>
+                <tr class="row">
+                    <td class="col-sm">February</td>
+                    <td class="col-sm">$200</td>
+                </tr> 
+            </table>
+        </div>
+        
 
-        <ul class="parent-child">
-            Daddy and Mommy
-            <li>Kiddie 1</li>
-            <li>Kiddie 2</li>
-            <li>Kiddie 3</li>
-            <li>
-                <ul>Kiddies kiddos
-                    <li>Kiddie kiddo 1</li>
-                    <li>Kiddie kiddo 2</li>
-                </ul>
-            </li>
-        </ul>
+        <div class="verticalBuffer"></div>
 
-        <ul class="ancestor-descendant">
-            Grandpa and Grandma
-            <li>Grandkid 1</li>
-            <li>Grandkid 2</li>
-            <li>Grandkid 3</li>
-            <li>
-                <ul>Grandkid kiddo
-                    <li> More kiddos</li>
-                </ul>
-            </li>
-        </ul>
-
-        <p>paragraph1</p>
-        <p>paragraph2</p>
-        <p>paragraph3</p>
+        <div class="drinks">
+            <div class="container">
+                <div class="row">
+                    <ol class="col-sm">
+                
+                        <li>Milk</li>
+                        <li>Tea</li>
+                        <li attribute-chungus="chungus-value">Boba</li>
+                          
+                    </ol>
+                    <ul class="col-sm">
+                
+                        <li>Milk</li>
+                        <li>Tea</li>
+                        <li attribute-chungus="chungus-value">Boba</li>  
+                
+                    </ul>
+                </div>
+            </div>
+        </div>
 
 
-        <div>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <ul class="parent-child">
+                        Daddy and Mommy
+                        <li>Kiddie 1</li>
+                        <li>Kiddie 2</li>
+                        <li>Kiddie 3</li>
+                        <li>
+                            <ul>Kiddies kiddos
+                                <li>Kiddie kiddo 1</li>
+                                <li>Kiddie kiddo 2</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+        
+                <div class="col">
+                    <ul class="ancestor-descendant">
+                        Grandpa and Grandma
+                        <li>Grandkid 1</li>
+                        <li>Grandkid 2</li>
+                        <li>Grandkid 3</li>
+                        <li>
+                            <ul>Grandkid kiddo
+                                <li> More kiddos</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        
+         <div class="container">
+            <p>paragraph1</p>
+            <p>paragraph2</p>
+            <p>paragraph3</p>
+        </div>
+        
+
+        <div class="outerexample">
             Outer Box
-            <div>
+            <div class="innerexample">
                 Inner Box
             </div>
-            <div>
+            <div class="innersiblingexample">
                 Inner Sibling Box
             </div>
         </div>
@@ -96,5 +145,10 @@
         <footer id="footer">
             so absolutely chungus
         </footer>
+
+
+        <img src="https://phantom-marca.unidadeditorial.es/77ad565e510e5cdaf2e24ca23a62e486/resize/828/f/webp/assets/multimedia/imagenes/2022/05/25/16534936278503.jpg" class="rounded-circle">
+
+
     </body>
 </html>

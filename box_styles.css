@@ -1,10 +1,10 @@
-div {
+div.outerexample {
     border: solid .1em black;
     margin: .1em;
     padding: .1em;
     font-size: 40px;
 }
 
-div div {
+div.innerexample.innersiblingexample{
     background-color: aqua;
 }
